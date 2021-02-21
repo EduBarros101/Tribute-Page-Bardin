@@ -1,0 +1,79 @@
+/*My default reset goes bellow*/
+* {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+/*From now on, goes my project styling*/
+body {
+	font-family: Raleway, sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+#main {
+	background-color: lightgray;
+	margin: 1rem;
+	padding: 1rem;
+	border-radius: 0.3rem;
+	border-right: gray solid 2px;
+	border-bottom: gray solid 2px;
+}
+
+#title {
+	text-align: center;
+	margin: 1rem;
+}
+
+#img-div {
+	border-radius: 0.3rem;
+}
+
+figure {
+	padding: 1rem;
+}
+
+#image {
+	display: block;
+	max-width: 100%;
+	margin: auto;
+	border-radius: 0.3rem;
+	border-right: gray solid 2px;
+	border-bottom: gray solid 2px;
+}
+
+#img-caption {
+	text-align: center;
+	margin: 0.5rem;
+}
+
+h2 {
+	border-bottom: solid 1px;
+	border-right: solid 1px;
+}
+
+#tribute-info {
+	max-width: 40rem;
+	margin: auto;
+}
+
+#tribute-info > p {
+	padding: 1rem;
+}
+
+#tribute-title {
+	text-align: left;
+	margin: 1rem;
+}
+
+#tribute-footer {
+	margin: 1rem;
+	text-align: center;
+}
+
+#tribute-link {
+	text-decoration: none;
+}
